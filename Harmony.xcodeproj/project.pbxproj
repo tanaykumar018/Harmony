@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5F15D951FC3A21700FE6261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F15D941FC3A21700FE6261 /* AppDelegate.swift */; };
+		F5F15D971FC3A21800FE6261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F15D961FC3A21800FE6261 /* ViewController.swift */; };
+		F5F15D9A1FC3A21800FE6261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F15D981FC3A21800FE6261 /* Main.storyboard */; };
+		F5F15D9C1FC3A21800FE6261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F15D9B1FC3A21800FE6261 /* Assets.xcassets */; };
+		F5F15D9F1FC3A21800FE6261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F15D9D1FC3A21800FE6261 /* LaunchScreen.storyboard */; };
+		F5F15DB51FC46B5A00FE6261 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DB31FC4682900FE6261 /* note1.wav */; };
+		F5F15DB61FC46B5A00FE6261 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DAF1FC4682900FE6261 /* note2.wav */; };
+		F5F15DB71FC46B5A00FE6261 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DB01FC4682900FE6261 /* note3.wav */; };
+		F5F15DB81FC46B5A00FE6261 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DB11FC4682900FE6261 /* note4.wav */; };
+		F5F15DB91FC46B5A00FE6261 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DB21FC4682900FE6261 /* note5.wav */; };
+		F5F15DBA1FC46B5A00FE6261 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DAE1FC4682900FE6261 /* note6.wav */; };
+		F5F15DBB1FC46B5A00FE6261 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5F15DB41FC4682A00FE6261 /* note7.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5F15D911FC3A21700FE6261 /* Harmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F15D941FC3A21700FE6261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5F15D961FC3A21800FE6261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5F15D991FC3A21800FE6261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F15D9B1FC3A21800FE6261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F15D9E1FC3A21800FE6261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F15DA01FC3A21800FE6261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F15DAE1FC4682900FE6261 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		F5F15DAF1FC4682900FE6261 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		F5F15DB01FC4682900FE6261 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		F5F15DB11FC4682900FE6261 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		F5F15DB21FC4682900FE6261 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		F5F15DB31FC4682900FE6261 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		F5F15DB41FC4682A00FE6261 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F15D8E1FC3A21700FE6261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F15D881FC3A21700FE6261 = {
+			isa = PBXGroup;
+			children = (
+				F5F15D931FC3A21700FE6261 /* Harmony */,
+				F5F15D921FC3A21700FE6261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F15D921FC3A21700FE6261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F15D911FC3A21700FE6261 /* Harmony.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F15D931FC3A21700FE6261 /* Harmony */ = {
+			isa = PBXGroup;
+			children = (
+				F5F15D941FC3A21700FE6261 /* AppDelegate.swift */,
+				F5F15D961FC3A21800FE6261 /* ViewController.swift */,
+				F5F15D981FC3A21800FE6261 /* Main.storyboard */,
+				F5F15D9B1FC3A21800FE6261 /* Assets.xcassets */,
+				F5F15D9D1FC3A21800FE6261 /* LaunchScreen.storyboard */,
+				F5F15DA01FC3A21800FE6261 /* Info.plist */,
+				F5F15DB31FC4682900FE6261 /* note1.wav */,
+				F5F15DAF1FC4682900FE6261 /* note2.wav */,
+				F5F15DB01FC4682900FE6261 /* note3.wav */,
+				F5F15DB11FC4682900FE6261 /* note4.wav */,
+				F5F15DB21FC4682900FE6261 /* note5.wav */,
+				F5F15DAE1FC4682900FE6261 /* note6.wav */,
+				F5F15DB41FC4682A00FE6261 /* note7.wav */,
+			);
+			path = Harmony;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F15D901FC3A21700FE6261 /* Harmony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F15DA31FC3A21800FE6261 /* Build configuration list for PBXNativeTarget "Harmony" */;
+			buildPhases = (
+				F5F15D8D1FC3A21700FE6261 /* Sources */,
+				F5F15D8E1FC3A21700FE6261 /* Frameworks */,
+				F5F15D8F1FC3A21700FE6261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmony;
+			productName = Harmony;
+			productReference = F5F15D911FC3A21700FE6261 /* Harmony.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F15D891FC3A21700FE6261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Tanay Kumar";
+				TargetAttributes = {
+					F5F15D901FC3A21700FE6261 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5F15D8C1FC3A21700FE6261 /* Build configuration list for PBXProject "Harmony" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F15D881FC3A21700FE6261;
+			productRefGroup = F5F15D921FC3A21700FE6261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F15D901FC3A21700FE6261 /* Harmony */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F15D8F1FC3A21700FE6261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F15DBA1FC46B5A00FE6261 /* note6.wav in Resources */,
+				F5F15DB91FC46B5A00FE6261 /* note5.wav in Resources */,
+				F5F15DB71FC46B5A00FE6261 /* note3.wav in Resources */,
+				F5F15DB51FC46B5A00FE6261 /* note1.wav in Resources */,
+				F5F15DB81FC46B5A00FE6261 /* note4.wav in Resources */,
+				F5F15DB61FC46B5A00FE6261 /* note2.wav in Resources */,
+				F5F15DBB1FC46B5A00FE6261 /* note7.wav in Resources */,
+				F5F15D9F1FC3A21800FE6261 /* LaunchScreen.storyboard in Resources */,
+				F5F15D9C1FC3A21800FE6261 /* Assets.xcassets in Resources */,
+				F5F15D9A1FC3A21800FE6261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F15D8D1FC3A21700FE6261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F15D971FC3A21800FE6261 /* ViewController.swift in Sources */,
+				F5F15D951FC3A21700FE6261 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5F15D981FC3A21800FE6261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F15D991FC3A21800FE6261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F15D9D1FC3A21800FE6261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F15D9E1FC3A21800FE6261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F15DA11FC3A21800FE6261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5F15DA21FC3A21800FE6261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F15DA41FC3A21800FE6261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94EKUQWH5V;
+				INFOPLIST_FILE = Harmony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanaykumar.Harmony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F15DA51FC3A21800FE6261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94EKUQWH5V;
+				INFOPLIST_FILE = Harmony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanaykumar.Harmony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F15D8C1FC3A21700FE6261 /* Build configuration list for PBXProject "Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F15DA11FC3A21800FE6261 /* Debug */,
+				F5F15DA21FC3A21800FE6261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F15DA31FC3A21800FE6261 /* Build configuration list for PBXNativeTarget "Harmony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F15DA41FC3A21800FE6261 /* Debug */,
+				F5F15DA51FC3A21800FE6261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F15D891FC3A21700FE6261 /* Project object */;
+}
